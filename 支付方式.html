@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>	
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/top.css">
+	<style type="text/css">
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, font, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td {
+						margin: 0;
+						padding: 0;
+						border: 0;
+						outline: 0;
+						font-weight: inherit;
+						font-style: inherit;
+						font-size: 100%;
+						font-family: inherit;
+						vertical-align: baseline;
+		}
+		#clear{clear:both;width: 0;height: 0;}
+			.clearfix:before,
+			.clearfix:after {       
+			content: "";     
+			display: block;   
+			clear: both;     
+			visibility: hidden;     
+			line-height: 0;    
+			height: 0;     
+			font-size:0;    
+			}
+		.clearfix { *zoom:1;}
+		header>div:last-child{
+			font-size: 0.22rem;
+			line-height: 0.78rem;
+			border-bottom: 1px solid #dcdcdc;
+		}
+		header>div:last-child>span{
+			padding: 0.04rem 0;
+			margin-left: 0.52rem;
+			color: #f99839;
+		}
+		section{
+			background-color: #f6f6f6;
+			padding-top: 0.26rem;
+			padding-bottom: 2.9rem
+		}
+		section>div{
+			
+			
+			background: url("../images/jian.jpg") no-repeat right 0;
+			background-size: 0.5rem 0.48rem;
+			background-color: #fff;
+		}
+		section ul{
+			list-style: none;
+			font-size: 0.2rem;
+			width: 5.68rem;
+			margin: 0 auto;
+		}
+		section ul li{
+			padding-left: 0.94rem;
+			line-height: 0.98rem;
+			border-bottom: 2px solid #dcdcdc;
+			background: url("../images/zhi.png") no-repeat 0 center;
+			background-size: 0.57rem 0.57rem;
+		}
+		section ul li a{
+			display: block;
+			width: 0.4rem;
+			padding-top: 0.4rem;
+			border-radius: 50%;
+			border:1px solid #dcdcdc;
+			float: right;
+			margin-top: 0.26rem;
+		}
+		section ul li:nth-child(2){
+			background: url("../images/wei.png") no-repeat 0 center;
+			background-size: 0.58rem 0.58rem;
+		}
+		section ul li:last-child{
+			background: url("../images/yin.png") no-repeat 0 center;
+			background-size: 0.58rem 0.58rem;
+			border:0;
+		}
+		footer{
+			font-size: 0.16rem;
+		}
+		footer p{
+			width: 2.68rem;
+			float: left;
+			margin-left: 0.16rem;
+			line-height: 0.36rem;
+			margin-top: 0.08rem;
+		}
+		footer p>span:first-child{
+			color: #feaf6a;
+		}
+		footer p>span:first-child>span{
+			margin-left: 0.2rem;
+			font-size: 0.2rem
+		}
+		footer p>span:last-child{
+			display: block;
+		}
+		footer p>span:last-child>span{
+			margin: 0 0.1rem;
+		}
+		footer a{
+			display: block;
+			float: right;
+			text-decoration: none;
+			background-color: #50bbdb;
+			color: #fffef8;
+			width: 1.88rem;
+			line-height: 0.66rem;
+			margin: 0.16rem 0;
+			margin-right: 0.26rem;
+			text-align: center;
+			border-radius: 5px;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="top clearfix">
+				<a href="#"></a>
+				<h2>选择支付方式</h2>
+			</div>
+			<div class="clearfix">
+				<span>订单总金额：￥<span>5920</span></span>
+			</div>
+		</header>
+		<section>
+			<div>
+				<ul>
+					<li class="clearfix">支付宝支付<a href="#"></a></li>
+					<li class="clearfix">微信支付<a href="#"></a></li>
+					<li class="clearfix">银联支付<a href="#"></a></li>
+				</ul>
+			</div>
+			
+		</section>
+		<footer class="clearfix">
+			<p>
+				<span>
+					支付：
+					<span>
+						￥
+						<span>
+							5920
+						</span>
+					</span>
+				</span>
+				<span>剩余<span>00:18:44</span>请尽快付款</span>
+			</p>
+			<a href="#">付款</a>
+		</footer>
+	</div>
+</body>
+</html>
